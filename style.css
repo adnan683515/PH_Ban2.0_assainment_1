@@ -1,4 +1,7 @@
 * {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     margin: 0;
     padding: 0;
 }
@@ -44,7 +47,7 @@ nav button {
 body {
     width: 1420px;
     margin: auto;
-    background-color: rgb(244, 240, 240); 
+    background-color: rgb(244, 240, 240);
     /* background-color: rgb(220, 220, 220); */
 }
 
@@ -109,7 +112,7 @@ header button {
     gap: 20px;
 }
 
-.pilar_title{
+.pilar_title {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -157,10 +160,12 @@ header button {
     flex-direction: column;
     gap: 30px;
 }
-.vision_section button{
+
+.vision_section button {
     cursor: pointer;
 }
-.vision_title{
+
+.vision_title {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -176,7 +181,8 @@ header button {
     align-items: center;
     justify-content: space-between;
 }
-.vision_card_title{
+
+.vision_card_title {
     margin: 5px 0;
 }
 
@@ -239,7 +245,7 @@ header button {
 }
 
 /* quotation div */
-.younus{
+.younus {
     margin-top: 30px;
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
@@ -248,9 +254,11 @@ header button {
     font-weight: 600;
 
 }
-.dr{
+
+.dr {
     margin-top: 40px;
 }
+
 .quotation_div {
 
 
@@ -261,12 +269,13 @@ header button {
     display: flex;
     flex-direction: column;
 }
-.quotation_div p{
+
+.quotation_div p {
     margin-top: -40px;
 }
 
 /* satelite dive */
-.satelite_div{
+.satelite_div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -275,28 +284,33 @@ header button {
     margin: 30px 0;
     border-radius: 10px;
     background-color: #fff;
-    padding:20px;
+    padding: 20px;
 }
 
-.sateite_text_div{
+.sateite_text_div {
     float: left;
 }
-.satelite_img{
+
+.satelite_img {
     width: 280px;
     border-radius: 13px;
 }
-.date_box{
+
+.date_box {
     display: flex;
     flex-direction: row;
     gap: 0 20px;
     margin: 10px 0;
 }
-.aljazeera_img{
+
+.aljazeera_img {
     margin: 13px 0;
 }
-.satelite_big_text{
+
+.satelite_big_text {
     margin: 10px 0;
 }
+
 .satelite_div button {
     background-color: rgba(0, 106, 80, 1);
     padding: 12px;
@@ -307,7 +321,7 @@ header button {
     display: flex;
 }
 
-.satelite_title{
+.satelite_title {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
