@@ -384,3 +384,41 @@ header button {
     font-weight: 600;
 
 }
+
+.last_section{
+    background-color: rgb(167, 206, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-bottom: 30px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.input_suscribe{
+    display: flex;
+    gap: 0;
+    margin: 10px 0;
+}
+.input_box_last_section{
+    padding: 14px 146px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+.last_button{
+    padding: 14px 40px;
+    color: #fff;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    
+    border-radius: 0 10px 10px 0;
+}
+footer{
+    background-color: #fff;
+    /* width: 1600px; */
+    padding: 15px 0;
+    margin-left: -110px;
+    margin-right: -110px;
+    text-align: center;
+}
