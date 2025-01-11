@@ -327,9 +327,10 @@ header button {
     font-style: normal;
     color: rgba(14, 14, 14, 0.8);
 }
+
 /* donate */
 
-.Dotane_div{
+.Dotane_div {
     margin: 70px 70px;
     display: flex;
     flex-direction: column;
@@ -337,7 +338,7 @@ header button {
     align-items: center;
 }
 
-.Div_Taka{
+.Div_Taka {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -346,26 +347,31 @@ header button {
     gap: 30px;
     margin: 24px 20px;
 }
-.Taka{
+
+.Taka {
     background-color: #fff;
     padding: 30px 50px;
     border-radius: 10px;
     font-weight: 600;
     border: 1px solid green;
 }
-.aktu_colour_tk{
-    background-color: rgb(140, 210, 193) ;
-    
+
+.aktu_colour_tk {
+    background-color: rgb(140, 210, 193);
+
 }
-.donate_tk_txt{
+
+.donate_tk_txt {
     text-align: center;
 }
-.donate_title{
+
+.donate_title {
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.input_box{
+
+.input_box {
     width: 1000px;
     text-align: center;
     padding: 20px 0;
@@ -374,9 +380,10 @@ header button {
     font-size: 20px;
     color: #45444476;
     font-weight: 600;
-    
+
 }
-.done{
+
+.done {
     background-color: rgba(0, 106, 80, 1);
     padding: 15px 30px;
     margin-top: 25px;
@@ -388,7 +395,7 @@ header button {
 
 }
 
-.last_section{
+.last_section {
     background-color: rgb(167, 206, 178);
     display: flex;
     flex-direction: column;
@@ -400,25 +407,29 @@ header button {
     text-align: center;
     border-radius: 10px;
 }
-.input_suscribe{
+
+.input_suscribe {
     display: flex;
     gap: 0;
     margin: 10px 0;
 }
-.input_box_last_section{
+
+.input_box_last_section {
     padding: 14px 146px;
     border-radius: 10px 0 0 10px;
     border: none;
 }
-.last_button{
+
+.last_button {
     padding: 14px 40px;
     color: #fff;
     background-color: rgba(0, 106, 80, 1);
     border: none;
-    
+
     border-radius: 0 10px 10px 0;
 }
-footer{
+
+footer {
     background-color: #fff;
     /* width: 1600px; */
     padding: 15px 0;
@@ -426,3 +437,50 @@ footer{
     margin-right: -110px;
     text-align: center;
 }
+.table_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 19px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+td,
+th {
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    padding: 20px;
+
+}
+
+.head_tr{
+    background-color: rgb(167, 206, 178);
+}
+.talbe_title{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+}
+.next_td{
+    width: 250px;
+    text-align: center;
+}
+.next_td button{
+    padding: 8px 13px;
+    background-color:  rgb(167, 206, 178);
+    border: 1px solid black;
+}
+
