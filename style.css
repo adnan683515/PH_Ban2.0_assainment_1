@@ -355,6 +355,10 @@ header button {
     font-weight: 600;
     border: 1px solid green;
 }
+.Taka:hover{
+    background-color: rgb(140, 210, 193);
+    cursor: pointer;
+}
 
 .aktu_colour_tk {
     background-color: rgb(140, 210, 193);
@@ -437,7 +441,8 @@ footer {
     margin-right: -110px;
     text-align: center;
 }
-.table_section{
+
+.table_section {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -447,8 +452,9 @@ footer {
     border-radius: 10px;
     padding: 20px;
 
-    
+
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -464,23 +470,25 @@ th {
 
 }
 
-.head_tr{
+.head_tr {
     background-color: rgb(167, 206, 178);
 }
-.talbe_title{
+
+.talbe_title {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     font-size: 15px;
     font-weight: 600;
 }
-.next_td{
+
+.next_td {
     width: 250px;
     text-align: center;
 }
-.next_td button{
+
+.next_td button {
     padding: 8px 13px;
-    background-color:  rgb(167, 206, 178);
+    background-color: rgb(167, 206, 178);
     border: 1px solid black;
 }
-
