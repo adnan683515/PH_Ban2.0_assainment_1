@@ -327,3 +327,60 @@ header button {
     font-style: normal;
     color: rgba(14, 14, 14, 0.8);
 }
+/* donate */
+
+.Dotane_div{
+    margin: 70px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div_Taka{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 24px 20px;
+}
+.Taka{
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid green;
+}
+.aktu_colour_tk{
+    background-color: rgb(140, 210, 193) ;
+    
+}
+.donate_title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.input_box{
+    width: 1000px;
+    text-align: center;
+    padding: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #45444476;
+    font-weight: 600;
+    
+}
+.done{
+    background-color: rgba(0, 106, 80, 1);
+    padding: 15px 30px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 20px 29px 10px #ffffff00;
+    font-weight: 600;
+
+}
