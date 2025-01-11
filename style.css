@@ -109,11 +109,12 @@ header button {
     gap: 20px;
 }
 
-.pillars_section .pilar_title {
+.pilar_title{
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: xx-large;
+    font-size: 25px;
+    margin: 10px 0;
 }
 
 .pillars_section .div_item {
@@ -160,6 +161,10 @@ header button {
     cursor: pointer;
 }
 .vision_title{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 31px;
     margin-top: 20px;
 }
 
@@ -234,7 +239,18 @@ header button {
 }
 
 /* quotation div */
+.younus{
+    margin-top: 30px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 600;
 
+}
+.dr{
+    margin-top: 40px;
+}
 .quotation_div {
 
 
@@ -289,4 +305,11 @@ header button {
     border-radius: 5px;
     font-weight: bold;
     display: flex;
+}
+
+.satelite_title{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgba(14, 14, 14, 0.8);
 }
