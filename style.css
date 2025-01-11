@@ -30,20 +30,22 @@ nav h1 {
     font-style: normal;
 }
 
-nav button{
+nav button {
     padding: 12px;
     border: 2px solid rgba(0, 106, 80, 1);
     border-radius: 5px;
-    color:rgba(0, 106, 80, 1) ;
+    color: rgba(0, 106, 80, 1);
     background: none;
     font-size: 500;
-    
+
 }
+
 /* header part start */
 body {
     width: 1420px;
     margin: auto;
-
+    background-color: rgb(244, 240, 240); 
+    /* background-color: rgb(220, 220, 220); */
 }
 
 header {
@@ -97,3 +99,194 @@ header button {
 }
 
 /* header part end */
+
+
+/* pillar section */
+.pillars_section {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pillars_section .pilar_title {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.pillars_section .div_item {
+    width: 270px;
+    padding: 18px;
+    height: auto;
+    line-height: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px; */
+}
+
+.div_item_text {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #6f6f6f;
+    font-weight: 500;
+}
+
+.innovation {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 5px 0;
+}
+
+.Pilar_divs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* vision section */
+
+.vision_section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.vision_section button{
+    cursor: pointer;
+}
+.vision_title{
+    margin-top: 20px;
+}
+
+.vision_box_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.vision_card_title{
+    margin: 5px 0;
+}
+
+.vision_card {
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    border-radius: 14px;
+    background-color: rgb(174, 199, 227);
+    height: auto;
+
+}
+
+.vision_card_button {
+    padding: 10px 25px;
+    background-color: rgb(11, 205, 11);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.green_box {
+    background-color: rgb(167, 206, 178);
+}
+
+.green_box button {
+    background-color: rgb(38, 117, 38);
+}
+
+.blue_box {
+    background-color: rgb(150, 193, 207);
+}
+
+.blue_box button {
+    background-color: rgba(0, 33, 90, 0.754);
+}
+
+.warning_box {
+    background: linear-gradient(180deg, rgba(215, 232, 22, 0.498), rgb(156, 153, 116));
+}
+
+.warning_box button {
+    background-color: rgb(174, 199, 73);
+    color: black;
+}
+
+.last_box {
+    background-color: #fff;
+}
+
+.last_box button {
+    background-color: black;
+}
+
+.Card_big_text {
+    margin: 10px 0;
+    color: #454444;
+}
+
+/* quotation div */
+
+.quotation_div {
+
+
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.quotation_div p{
+    margin-top: -40px;
+}
+
+/* satelite dive */
+.satelite_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    padding:20px;
+}
+
+.sateite_text_div{
+    float: left;
+}
+.satelite_img{
+    width: 280px;
+    border-radius: 13px;
+}
+.date_box{
+    display: flex;
+    flex-direction: row;
+    gap: 0 20px;
+    margin: 10px 0;
+}
+.aljazeera_img{
+    margin: 13px 0;
+}
+.satelite_big_text{
+    margin: 10px 0;
+}
+.satelite_div button {
+    background-color: rgba(0, 106, 80, 1);
+    padding: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+}
